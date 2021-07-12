@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     $dbname = "db_a77512_tranvan";
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 	if(!$conn) {
-		die("Connection failed: ".mysqli_connect_error());
+		die("Connection failed: rồi ".mysqli_connect_error());
 	}
     mysqli_query($conn,"set names utf8");
 
