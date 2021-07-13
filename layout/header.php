@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Shop Phụ kiện Công nghệ</title>
+    <title>Camper Store</title>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../script/jsNguoiDung/jquery-1.11.0.min.js"></script>
@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Free Style Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+ Compatible web template, free webdesigns for  web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!--fonts-->
     <link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
@@ -110,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             </div>
             <div class="col-md-4 top-header-middle">
-                <a href="index.php" ><img src="../images/logo1.jpg" alt="" /></a>
+                <a href="index.php" ><img src="../images/logocamper.jpg" alt="" /></a>
             </div>
             <div class="col-md-4 top-header-right divgiohang">
 

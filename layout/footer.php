@@ -56,8 +56,8 @@
 <div class="footer-text">
     <div class="container">
         <div class="footer-main">
-            <p class="footer-class">© 2015 Free Style . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-			<p class="footer-class">Free Style A Ecommerce Category Flat Bootstrap Responsive Website Template</p>
+            <p class="footer-class"><a href="http://w3layouts.com/" target="_blank"></a> </p>
+			<p class="footer-class"></p>
         </div>
     </div>
     <script type="text/javascript">

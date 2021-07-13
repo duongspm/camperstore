@@ -1,5 +1,5 @@
 <?php
-include("./layout/header.php");
+include("../layout/header.php");
 
 global $conn;
 
@@ -16,22 +16,22 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
 
 ?>
 
-<div class="bnr" id="home">
+<!-- <div class="bnr" id="home">
     <div  id="top" class="callbacks_container">
         <ul class="rslides" id="slider4">
             <li>
-                <div class="1"><a href=""><img src="./images/banner1.jpg"/></a></div>
+                <div class="1"><a href=""><img src="../images/banner3.jpg"/></a></div>
             </li>
             <li>
-                <div class="2"><a href=""><img src="./images/banner2.jpg"/></a></div>
+                <div class="2"><a href=""><img src="../images/banner2.jpg"/></a></div>
             </li>
             <li>
-                <div class="3"><a href=""><img src="./images/banner3.jpg"/></a></div>
+                <div class="3"><a href=""><img src="../images/banner3.jpg"/></a></div>
             </li>
         </ul>
     </div>
     <div class="clearfix"> </div>
-</div>
+</div> -->
 <!--banner-ends-->
 <!--Slider-Starts-Here-->
 <script src="../script/jsNguoiDung/responsiveslides.min.js"></script>
@@ -71,7 +71,7 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
                     </div>
                     <div class="bnr-right">
                         <a href="ChiTietSanPham.php?MaSP=<?php echo $cot1["MaSanPham"] ?>">
-                            <img width="150" height="150" src="./images/HinhSP/<?php echo $cot1["Anh"]; ?>" alt="" />
+                            <img width="150" height="150" src="../images/HinhSP/<?php echo $cot1["Anh"]; ?>" alt="" />
                         </a>
                     </div>
                     <div class="clearfix"> </div>
@@ -89,7 +89,7 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
                     </div>
                     <div class="bnr-right">
                         <a href="ChiTietSanPham.php?MaSP=<?php echo $cot2["MaSanPham"] ?>">
-                            <img width="150" height="150" src="./images/HinhSP/<?php echo $cot2["Anh"]; ?>" alt="" />
+                            <img width="150" height="150" src="../images/HinhSP/<?php echo $cot2["Anh"]; ?>" alt="" />
                         </a>
                     </div>
                     <div class="clearfix"> </div>
@@ -115,7 +115,7 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
             <div class="col-md-3 product-left">
                 <div class="p-one simpleCart_shelfItem">
                     <a href="ChiTietSanPham.php?MaSP=<?php echo $cot["MaSanPham"]; ?>">
-                        <img height="250" src="./images/HinhSP/<?php echo $cot["Anh"]; ?>" alt="" />
+                        <img height="250" src="../images/HinhSP/<?php echo $cot["Anh"]; ?>" alt="" />
                         <div class="mask">
                             <span>Xem chi tiết</span>
                         </div>
@@ -141,36 +141,7 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
 </div>
 <!--end-shoes-->
 <!--start-abt-shoe-->
-<div class="abt-shoe">
-    <div class="container">
-        <div class="abt-shoe-main">
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt1.jpg" alt="" /></a>
-                    <h4><a href="">Sạc dự phòng</a></h4>
-                    <p>Bạn có thể thoải mái sử dụng điện thoại mà không lo hết pin.</p>
-                </div> 
-            </div>
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt2.jpg" alt="" /></a>
-                    <h4><a href="">Tai nghe</a></h4>
-                    <p>Thư giãn với âm nhạc trong không gian riêng của bạn.</p>
-                </div>
-            </div>
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt3.jpg" alt="" /></a>
-                    <h4><a href="">Loa</a></h4>
-                    <p>Âm thanh sống động giúp bạn đón nhận nhiều cảm xúc hơn.</p>
-                </div>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
-</div>
-
 
 <?php
-include("./layout/footer.php");
+include("../layout/footer.php");
 ?>

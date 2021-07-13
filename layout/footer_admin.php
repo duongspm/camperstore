@@ -1,7 +1,7 @@
 <html>
 <body>
 	<div class="footer-main">
-		<p class="footer-class" > <a href="https://startbootstrap.com/templates/sb-admin/" target="_blank">SB Admin - Bootstrap Admin Template</a> </p>
+		<p class="footer-class" > <a href="https://startbootstrap.com/templates/sb-admin/" target="_blank">Staff Camper Store</a> </p>
     </div>
 <!-- /#wrapper -->
 

@@ -1,5 +1,5 @@
 <?php
-include("./layout/header.php");
+include_once "./layout/header.php";
 
 global $conn;
 
@@ -32,9 +32,9 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
     </div>
     <div class="clearfix"> </div>
 </div>
-<!--banner-ends-->
+<!--banner-ends./script/jsNguoiDung/responsiveslides.min.js-->
 <!--Slider-Starts-Here-->
-<script src="../script/jsNguoiDung/responsiveslides.min.js"></script>
+<script src="./script/jsNguoiDung/responsiveslides.min.js"></script>
 <script>
     // You can also use "$(window).load(function() {"
     $(function () {
@@ -141,34 +141,6 @@ $truyvan_laySP=mysqli_query($conn,$laySP);
 </div>
 <!--end-shoes-->
 <!--start-abt-shoe-->
-<div class="abt-shoe">
-    <div class="container">
-        <div class="abt-shoe-main">
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt1.jpg" alt="" /></a>
-                    <h4><a href="">Sạc dự phòng</a></h4>
-                    <p>Bạn có thể thoải mái sử dụng điện thoại mà không lo hết pin.</p>
-                </div> 
-            </div>
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt2.jpg" alt="" /></a>
-                    <h4><a href="">Tai nghe</a></h4>
-                    <p>Thư giãn với âm nhạc trong không gian riêng của bạn.</p>
-                </div>
-            </div>
-            <div class="col-md-4 abt-shoe-left">
-                <div class="abt-one">
-                    <a ><img src="./images/abt3.jpg" alt="" /></a>
-                    <h4><a href="">Loa</a></h4>
-                    <p>Âm thanh sống động giúp bạn đón nhận nhiều cảm xúc hơn.</p>
-                </div>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
-</div>
 
 
 <?php
