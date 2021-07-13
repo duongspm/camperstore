@@ -32,14 +32,14 @@ $dbname = "db_a77512_tranvan";
 </head>
 <body>
 <!--start-main-->
-<h1>Xin chào quản trị viên !<span>Xin hãy đăng nhập...</span></h1>
+<h1>Staff Camper Store |<span>| Đăng nhập để vào</span></h1>
 <div class="login-box">
     <form method="post" action="<?php echo $_SERVER["PHP_SELF"] ?>">
 			<input name="tendangnhap" id="tendangnhap" type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >
 			<input name="matkhau" id="matkhau" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
 
 		<div class="remember">
-			<h4>Chào mừng đến trang quản lý.</h4>
+			<h4>Admin Page</h4>
 		</div>
 		<div class="clear"> </div>
 		<div class="btn">
