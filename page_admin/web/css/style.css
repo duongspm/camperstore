@@ -48,7 +48,7 @@ h1 span{
 	margin-left: 10px;
 }
 .login-box {
-	
+	background: url(../images/signup_back.png) no-repeat 0px 0px;
 	width: 510px;
 	height: 177px;
 	padding: 3em;
