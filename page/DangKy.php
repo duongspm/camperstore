@@ -45,7 +45,8 @@ if(isset($_SESSION["tendangnhap"]))
                     </div>
                     <div class="address">
                         <span>Ngày sinh</span>
-                        <input id="ngaysinh" name="ngaysinh" type="date">
+                        <!--input id="ngaysinh" name="ngaysinh" type="date"-->
+                        <input id="ngaysinh" name="ngaysinh" type="text">
                     </div>
                     <div class="address">
                         <span>Giới tính</span>
