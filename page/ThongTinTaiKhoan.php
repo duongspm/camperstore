@@ -114,7 +114,7 @@ $cot=mysqli_fetch_array($truyvanlayThongTin);
                     </div>
                     <div class="address">
                         <span>Ngày sinh</span>
-                        <input id="ngaysinh" name="ngaysinh" type="date" value="<?php echo $cot["NgaySinh"] ?>">
+                        <input id="ngaysinh" name="ngaysinh" type="text" value="<?php echo $cot["NgaySinh"] ?>">
                     </div>
                     <div class="address">
                         <span>Giới tính</span>
